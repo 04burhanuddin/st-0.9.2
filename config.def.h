@@ -184,10 +184,17 @@ static const ColorScheme schemes[] = {
 	  "#928374", "#9d0006", "#79740e", "#b57614",
 	  "#076678", "#8f3f71", "#427b58", "#3c3836",
 	  [256]="#3c3836", "#555555"}, 15, 0, 256, 257},
+
+  // Everforest dark
+  {{"#2B3339", "#e67e80", "#a7c080", "#dbbc7f",
+     "#7fbbb3", "#d699b6", "#83c092", "#d3c6aa",
+     "#87928a", "#f85552", "#b8bb26", "#fabd2f",
+     "#8ec07c", "#d3869b", "#8ec07c", "#ebdbb2",
+     [256]="#d3c6aa", "#5a5b5e"}, 15, 0, 256, 257},
 };
 
 static const char * const * colorname;
-int colorscheme = 4;
+int colorscheme = 8;
 
 /*
  * Default colors (colorname index)
