@@ -14,7 +14,7 @@ static char *font2[] = {
 };
 
 
-static int borderpx = 8;
+static int borderpx = 4;
 
 /*
  * What program is execed by st depends of these precedence rules:
@@ -114,7 +114,7 @@ char *termname = "st-256color";
 unsigned int tabspaces = 8;
 
 /* bg opacity */
-float alpha = 1;
+float alpha = 0.9;
 
 typedef struct {
   const char* const colors[258];  /* terminal colors */
