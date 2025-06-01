@@ -5,10 +5,11 @@
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
-static char *font = "JetBrainsMono Nerd Font:pixelsize=15:antialias=true:autohint=true";
+static char *font = "JetBrains Mono:pixelsize=15:antialias=true:autohint=true";
 /* Spare fonts */
 static char *font2[] = {
   /* add font you need on terminal */
+  "JetBrainsMono Nerd Font:pixelsize=15.6:antialias=true:autohint=true",
   "noto-fonts-emoji:pixelsize=15:antialias=true:autohint=true"
 };
 
